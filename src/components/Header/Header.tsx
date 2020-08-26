@@ -34,15 +34,9 @@ const Header = () => {
             </header>
 
             <Switch>
-                <Route path="/">
-                    <Home />
-                </Route>
-                <Route path="/work">
-                    <Work />
-                </Route>
-                <Route path="/contact">
-                    <Contact />
-                </Route>
+                <Route path="/" exact component={Home} />
+                <Route path="/work" component={Work} />
+                <Route path="/contact" component={Contact} />
             </Switch>
         </Router>
 

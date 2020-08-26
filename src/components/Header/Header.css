@@ -1,4 +1,4 @@
-@media screen and (min-width: 960px){
+@media screen {
     header {
         height: 70px;
         background-color: coral;
@@ -12,14 +12,5 @@
     .header-right {
         display: flex;
         text-decoration: none;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .header-right{
-        width: 100%;
-        display: flex;
-        text-decoration: none;
-        justify-content: space-around;
     }
 }
