@@ -1,0 +1,9 @@
+@media screen {
+    .work-contents {
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 30px;
+    }
+}
